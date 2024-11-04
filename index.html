@@ -11,9 +11,9 @@
 
   <body>
     <!--Navbar inicio-->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+          <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram me-1"></i>Instagram</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,7 +23,7 @@
             <form class="d-flex" role="search">
 
                 <!-- Button trigger modal -->
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Create a new post
 </button>
 
@@ -38,8 +38,8 @@
       <div class="modal-body">
         <div class="card">
             <div class="card" style="width: 100%;">
-  <div class="card-created">
-    <h6 class="card-title">Caption:</h6>
+  <div class="card-created m-2">
+    <h6 class="card-title mb-4">Caption:</h6>
     <div class="mb-3">
         <input type="text" class="form-control" placeholder="Add the caption of your  post here" required>
       </div>
@@ -47,7 +47,7 @@
   </div>
   <ul class="list-group list-group-flush">
   </ul>
-  <div class="card-camlocation">
+  <div class="card-camlocation m-2">
     <button><i class="fa-solid fa-camera"></i></button>
     <button><i class="fa-solid fa-location-dot"></i></button>
 
@@ -64,35 +64,35 @@
 </div>
 
  <!-- Button trigger modal -->
-  <!--dropdown-->
-              <div class="dropdown dropstart">
+  <!--dropdown inicio-->
+              <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa-solid fa-gear"></i>
                 </button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu ">
                   <li><a class="dropdown-item" href="#">Profile</a></li>
                   <li><a class="dropdown-item" href="#">Accesibility</a></li>
                   <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-                  <li><a class="dropdown-item" href="#">log out</a></li>
+                  <li><a class="dropdown-item border-top border-danger" href="#">Log out</a></li>
                 </ul>
               </div>
             </form>
           </div>
         </div>
       </nav>
-      <!--dropdown-->
+      <!--dropdown fin-->
       <!--Nabvar fin-->
 
       <!--navs & tabs-->
 
-      <ul class="nav nav-tabs justify-content-center">
+      <ul class="nav nav-tabs justify-content-center mb-4 border border-white">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-list-ul"></i>
+          <button class="nav-link border border-white" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-list-ul "></i>
           </button>
           
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-indent"></i></button>
+          <button class="nav-link border border-white" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-indent"></i></button>
       
         </ul>
 
@@ -104,16 +104,16 @@
 
       <!--post1-->
 
-      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3" style="max-width: 25rem;">
-        <div class="card-header bg-transparent border-success"><div><h6>La dana en Aldaia</h6>
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3 border border-3 col-6 mx-auto border rounded p-0" style="max-width: 30rem;">
+        <div class="card-header bg-transparent d-flex justify-content-between" "><div><h6>La dana en Aldaia</h6>
             </div>
         <div><p>29/10</p>
              </div>
           </div>
-        <div class="card-body text-success">  
+        <div class="card-body text- p-0">  
         <img src="https://imagenes.elpais.com/resizer/v2/NSLCJKKJLNADXERSHFDWVNDEHU.jpg?auth=39af2ee0162cccf747374f722b83af7ac70d0c7a790117ce963c47080f5e876e&width=1960" class="img-fluid" alt="">
             </div>
-        <div class="card-footer bg-transparent border-success">
+        <div class="card-footer bg-transparent border">
           <div><h6>58172 Likes</h6></div>
           <div><p>Destrozos causados por la dana en el Centro Gomercial Bonaire de Aldaia, este miércoles.</p>
                   </div>
@@ -123,13 +123,13 @@
   
    <!--post2-->
    
-  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3" style="max-width: 25rem;">
-    <div class="card-header bg-transparent border-success"><div><h6>La dana en Sedaví</h6>
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3 border border-4 col-6 mx-auto border rounded p-0" style="max-width: 30rem;">
+    <div class="card-header bg-transparent d-flex justify-content-between"><div><h6>La dana en Sedaví</h6>
         </div>
     <div><p>29/10</p>
          </div>
       </div>
-    <div class="card-body text-success">  
+    <div class="card-body text-success p-0">  
     <img src="https://imagenes.elpais.com/resizer/v2/ONH5WRJ5W5CMPHN557KSC7K3RI.jpg?auth=25b72a3ae0f53e4c1ecc510d11b3f8583e0fd67ccdf6c52b06c825667b1f3993&width=1960" class="img-fluid" alt="">
         </div>
     <div class="card-footer bg-transparent border-success">
@@ -142,13 +142,13 @@
 
    <!--post3-->
 
-   <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3" style="max-width: 25rem;">
-    <div class="card-header bg-transparent border-success"><div><h6>La dana en Sedaví</h6>
+   <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3 border border-4 col-6 mx-auto border rounded p-0" style="max-width: 30rem;">
+    <div class="card-header bg-transparent d-flex justify-content-between"><div><h6>La dana en Sedaví</h6>
         </div>
     <div><p>29/10</p>
          </div>
       </div>
-    <div class="card-body text-success">  
+    <div class="card-body text-success p-0">  
     <img src="https://imagenes.elpais.com/resizer/v2/BQKUGKB6VRFTFL2Y34MHZSXETM.jpg?auth=a24213db87be21c2072dd9bca4670a54ac40c815ee1732f87069c48628e0dbc9&width=1960" class="img-fluid" alt="">
         </div>
     <div class="card-footer bg-transparent border-success">
@@ -163,13 +163,13 @@
 
                <!--post4-->
 
-               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3" style="max-width: 25rem;">
-                <div class="card-header bg-transparent border-success"><div><h6>La dana en Letur</h6>
+               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3 border border-4 col-6 mx-auto border rounded p-0" style="max-width: 30rem;">
+                <div class="card-header bg-transparent d-flex justify-content-between"><div><h6>La dana en Letur</h6>
                     </div>
                 <div><p>29/10</p>
                      </div>
                   </div>
-                <div class="card-body text-success">  
+                <div class="card-body text-success p-0">  
                 <img src="https://imagenes.elpais.com/resizer/v2/BLMCXK64LVGLZB7U7BQDUXURWE.jpg?auth=943f3218a9225f1fb9d410d842d83f559d9fbaa0d710c95238e64c85711a7480&width=1960" class="img-fluid" alt="">
                     </div>
                 <div class="card-footer bg-transparent border-success">
@@ -183,13 +183,13 @@
 
                            <!--post5-->
 
-               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3" style="max-width: 25rem;">
-                <div class="card-header bg-transparent border-success"><div><h6>La dana en Valencia</h6>
+               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3 border border-4 col-6 mx-auto border rounded p-0" style="max-width: 30rem;">
+                <div class="card-header bg-transparent d-flex justify-content-between"><div><h6>La dana en Valencia</h6>
                     </div>
                 <div><p>29/10</p>
                      </div>
                   </div>
-                <div class="card-body text-success">  
+                <div class="card-body text-success p-0">  
                 <img src="https://imagenes.elpais.com/resizer/v2/6IEDDJWV6FGOTLWU4POYQVMYXA.jpg?auth=d1d5e00a36bab2eace369bb518744b35ef3ad7f9cd0566581bb64497a4021db0&width=1960" class="img-fluid" alt="">
                     </div>
                 <div class="card-footer bg-transparent border-success">
@@ -203,13 +203,13 @@
 
                            <!--post6-->
 
-               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3" style="max-width: 25rem;">
-                <div class="card-header bg-transparent border-success"><div><h6>La dana en Alora</h6>
+               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3 border border-4 col-6 mx-auto border rounded p-0" style="max-width: 30rem;">
+                <div class="card-header bg-transparent d-flex justify-content-between"><div><h6>La dana en Alora</h6>
                     </div>
                 <div><p>29/10</p>
                      </div>
                   </div>
-                <div class="card-body text-success">  
+                <div class="card-body text-success p-0">  
                 <img src="https://imagenes.elpais.com/resizer/v2/GQ7S5LZIHNC7RKOFDT3D2TZP5M.jpg?auth=d734836ba6d05f31c5910b2d52ed78ef3fe83b67620414782af3fea8e5c8f357&width=1960" class="img-fluid" alt="">
                     </div>
                 <div class="card-footer bg-transparent border-success">
@@ -223,13 +223,13 @@
 
                            <!--post7-->
 
-               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3" style="max-width: 25rem;">
-                <div class="card-header bg-transparent border-success"><div><h6>La dana en Letur</h6>
+               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3 border border-4 col-6 mx-auto border rounded p-0" style="max-width: 30rem;">
+                <div class="card-header bg-transparent d-flex justify-content-between"><div><h6>La dana en Letur</h6>
                     </div>
                 <div><p>29/10</p>
                      </div>
                   </div>
-                <div class="card-body text-success">  
+                <div class="card-body text-success p-0">  
                 <img src="https://imagenes.elpais.com/resizer/v2/AAY4BPJXNUMI7YWHHI4OGSFRMA.jpg?auth=75c5d1a958fe86ed1ba72054b7e8cbe1c2946744153132516490ca607804338f&width=1960" class="img-fluid" alt="">
                     </div>
                 <div class="card-footer bg-transparent border-success">
@@ -243,13 +243,13 @@
 
                            <!--post8-->
 
-               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3" style="max-width: 25rem;">
-                <div class="card-header bg-transparent border-success"><div><h6>La dana en Valencia</h6>
+               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3 border border-4 col-6 mx-auto border rounded p-0" style="max-width: 30rem;">
+                <div class="card-header bg-transparent d-flex justify-content-between"><div><h6>La dana en Valencia</h6>
                     </div>
                 <div><p>29/10</p>
                      </div>
                   </div>
-                <div class="card-body text-success">  
+                <div class="card-body text-success p-0">  
                 <img src="https://imagenes.elpais.com/resizer/v2/JSLMG535OVGOVHLKZ5NPLXLHMI.jpeg?auth=e54e5245f15cc085dde566080f3f0dbb37d2fbec7b5bbf02add4afb6a605a563&width=1960" class="img-fluid" alt="">
                     </div>
                 <div class="card-footer bg-transparent border-success">
@@ -264,13 +264,13 @@
 
                            <!--post9-->
 
-               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3" style="max-width: 25rem;">
-                <div class="card-header bg-transparent border-success"><div><h6>La dana en España</h6>
+               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><div class="card border-light mb-3 border border-4 col-6 mx-auto border rounded p-0" style="max-width: 30rem;">
+                <div class="card-header bg-transparent  d-flex justify-content-between"><div><h6>La dana en España</h6>
                     </div>
                 <div><p>29/10</p>
                      </div>
                   </div>
-                <div class="card-body text-success">  
+                <div class="card-body text-success p-0">  
                 <img src=" https://imagenes.elpais.com/resizer/v2/EQ7PJXZOI3NISTRA3DWYPFYNAI.jpg?auth=3af81411fed654a7680a2ca17807b9165f7883301ab0c3bee6ea83ba794b4e1d&width=1960
                 " class="img-fluid" alt="">
                     </div>
@@ -295,31 +295,31 @@
         <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
           <div class="container text-center">
             <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="col-sm-12 col-md-6 col-lg-4 mt-4 ">
                 <img src="https://imagenes.elpais.com/resizer/v2/NSLCJKKJLNADXERSHFDWVNDEHU.jpg?auth=39af2ee0162cccf747374f722b83af7ac70d0c7a790117ce963c47080f5e876e&width=1960" class="img-fluid" alt="">
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
                 <img src="https://imagenes.elpais.com/resizer/v2/ONH5WRJ5W5CMPHN557KSC7K3RI.jpg?auth=25b72a3ae0f53e4c1ecc510d11b3f8583e0fd67ccdf6c52b06c825667b1f3993&width=1960" class="img-fluid" alt="">
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
                 <img src="https://imagenes.elpais.com/resizer/v2/BQKUGKB6VRFTFL2Y34MHZSXETM.jpg?auth=a24213db87be21c2072dd9bca4670a54ac40c815ee1732f87069c48628e0dbc9&width=1960" class="img-fluid" alt="">
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
               <img src="https://imagenes.elpais.com/resizer/v2/BLMCXK64LVGLZB7U7BQDUXURWE.jpg?auth=943f3218a9225f1fb9d410d842d83f559d9fbaa0d710c95238e64c85711a7480&width=1960" class="img-fluid" alt="">
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
               <img src="https://imagenes.elpais.com/resizer/v2/6IEDDJWV6FGOTLWU4POYQVMYXA.jpg?auth=d1d5e00a36bab2eace369bb518744b35ef3ad7f9cd0566581bb64497a4021db0&width=1960" class="img-fluid" alt="">
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
               <img src="https://imagenes.elpais.com/resizer/v2/GQ7S5LZIHNC7RKOFDT3D2TZP5M.jpg?auth=d734836ba6d05f31c5910b2d52ed78ef3fe83b67620414782af3fea8e5c8f357&width=1960" class="img-fluid" alt="">
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
             <img src="https://imagenes.elpais.com/resizer/v2/AAY4BPJXNUMI7YWHHI4OGSFRMA.jpg?auth=75c5d1a958fe86ed1ba72054b7e8cbe1c2946744153132516490ca607804338f&width=1960" class="img-fluid" alt="">
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
           <img src="https://imagenes.elpais.com/resizer/v2/JSLMG535OVGOVHLKZ5NPLXLHMI.jpeg?auth=e54e5245f15cc085dde566080f3f0dbb37d2fbec7b5bbf02add4afb6a605a563&width=1960" class="img-fluid" alt="">
       </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4 mb-4">
         <img src="https://imagenes.elpais.com/resizer/v2/EQ7PJXZOI3NISTRA3DWYPFYNAI.jpg?auth=3af81411fed654a7680a2ca17807b9165f7883301ab0c3bee6ea83ba794b4e1d&width=1960" class="img-fluid" alt="">
                 </div>
             </div>
